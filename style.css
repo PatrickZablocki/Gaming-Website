@@ -1,0 +1,50 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  -webkit-appearance: 0;
+     -moz-appearance: 0;
+          appearance: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+}
+body header {
+  background-color: rgb(8, 128, 240);
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+}
+body header .header_container {
+  grid-column: 1/3;
+}
+body header .header_container h1 {
+  display: flex;
+  align-items: center;
+}
+body header .header_container .nav_links {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+body header .header_container .nav_links li {
+  margin: 0;
+}
+body header .header_container .nav_links a {
+  text-decoration: none;
+  color: white;
+}
+body header .header_container .product-menu {
+  display: flex;
+  position: relative;
+  transition: 0.2s;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
